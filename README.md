@@ -8,7 +8,7 @@
 - python-docx
 - jieba
 - wordcloud
-```
+```bash
 pip install python-docx jieba wordcloud
 ```
 
@@ -16,7 +16,7 @@ pip install python-docx jieba wordcloud
 将Word文档放置在项目目录下的input文件夹中。
 确保stopwords.txt文件（包含要排除的停用词）位于项目根目录中。
 运行脚本：
-```
+```bash
 python word_cloud_generator.py
 ```
 生成的词云图片将保存为wordcloud.png。
